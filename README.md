@@ -1,15 +1,15 @@
-# ensemble2GeneNameMusMusculus
+# ensembl2GeneNameMusMusculus
 
-This is combined bash/R script that will use a file with **mouse** ENSEMBLE geneIDs in **a first column** of a file and append a gene name to it, while keeping the structure of the file from  other columns. Ensemble2GeneNameMusMusculus sets its host to ensembl.org thus it could be especially useful when biomaRt site is down.
+This is combined bash/R script that will use a file with **mouse** ENSEMBL geneIDs in **a first column** of a file and append a gene name to it, while keeping the structure of the file from  other columns. Ensembl2GeneNameMusMusculus sets its host to ensembl.org thus it could be especially useful when biomaRt site is down.
 
 
 # Dependencies
 Rscript, BiomaRt
 
 # Usage
-chmod 775 ensemble2GeneNameMusMusculus
+chmod 775 ensembl2GeneNameMusMusculus
 
-./ensemble2GeneNameMusMusculus file.txt
+./ensembl2GeneNameMusMusculus file.txt
 
 # Example
 
@@ -27,8 +27,8 @@ ENSMUSG00000103201	0	0	0
 ENSMUSG00000103147	0	0	0
 ENSMUSG00000103161	0	0	0
 
-chmod 775 ensemble2GeneNameMusMusculus
-./ensemble2GeneNameMusMusculus file.txt
+chmod 775 ensembl2GeneNameMusMusculus
+./ensembl2GeneNameMusMusculus file.txt
 
 
 head file.txt.genename
