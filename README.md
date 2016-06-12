@@ -37,5 +37,6 @@ Gm26206 ENSMUSG00000064842	0	0	0
 Xkr4 ENSMUSG00000051951	0	0	0
 Gm1992 ENSMUSG00000089699	0	0	0
 
+</pre>
 Note that **only lines with mathces in the Biomart database** are present in the output , those without a match are not in the output file.
 
